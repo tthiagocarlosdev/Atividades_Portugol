@@ -6,8 +6,9 @@
  * 
  * COMANDO DE ENTRADA(LEIA)
  * 
- * entrada (inserção) de dados por meio de algum código 
- * ou programa, para algum outro programa ou hardware
+ * Quando se deseja entrada/inserção de dados por meio de algum código 
+ * ou programa, para algum outro programa ou hardware se faz através
+ * do comando de entrada.
  * 
  * A instrução de entrada de dados possibilita que o 
  * algoritmo capture dados provenientes do ambiente externo 
@@ -24,23 +25,14 @@
  * está lendo dados do ambiente externo(usuário) para poder 
  * utilizá-los.
  * 
- * O Comando leia é utilizado quando se deseja obter 
- * informações do teclado do computador, ou seja, é um 
- * comandode entrada de dados. Esse comando aguarda um 
- * valor a ser digitado e o atribui diretamente na variável.
- * 
  * Para utilizar o comando leia, você deverá escrever 
- * este comando e entre parênteses colocar a(s) variavel 
- * (eis) quevocê quer que recebam os valores a serem 
- * digitados. A sintaxe deste comando está exemplificada a 
- * seguir:
- * 
- * 
- * 
+ * este comando e entre parênteses colocar a(s) variável 
+ * (eis) que você quer que recebam os valores a serem 
+ * digitados. Veja os exemplos abaixo:
+ *
  */
 programa
 {
-	
 	funcao inicio()
 	{
 		cadeia nome, cidade, estado
@@ -52,9 +44,9 @@ programa
 		escreva("\nDigite sua cidade e Estado de nascimento: ")
 		leia(cidade, estado)
 
-		escreva(cidade+"/"+estado)
+		escreva("Cidade/UF: "+cidade+"/"+estado)
 
-		escreva("\nNome: "+nome+"\nNascido em "+cidade+"/"+estado)
+		escreva("\nNome: "+nome+"\nNascido em: "+cidade+"/"+estado)
 	}
 }
 /* $$$ Portugol Studio $$$ 
