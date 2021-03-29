@@ -4,45 +4,32 @@
  * - Instagram: https://www.instagram.com/tthiagocarlos.dev/​
  * - Gmail: tthiagocarlos.dev@gmail.com
  * 
- * VARIÁVEIS ou TIPOS
- * Conceito: Uma **variável** é um espaço na memória do computador destinado 
- * a um dado que é alterado durante a execução do algoritmo.
+ * COMANDO DE SAÍDA
+ * Comando escreva
+ * tem como função mostrar/ apresentar ao usuário do programa
+ * alguma informação. O comando escreva é utilizado quando 
+ * deseja-se mostrar informaçỗes no console da IDE, ou seja, 
+ * é um comando de saída.
  * 
- * Classificação: As variáveis podem ser classificadas basicamente de quatro 
- * tipos:
- * - Numéricas: Números inteiro/real;
- * - Alfanuméricas: 
- * 		* Caracter: letra, número ou símbolo (alfanumérico ou especial),
- * 		aceita apenas um caracter;
- * 		* Cadeia: grande quantidade de texto ou caracteres (número/símbolo);
- * - Lógicas: usado em operações relacionais para exibir se determinada 
- * condição é verdadeira ou falsa.
+ * Para utilizar o comando, digite o comando e abra parênteses 
+ * para colocar o texto ou variáveis entre parênteses. Se for 
+ * colocar texto, o mesmo deve estar entre aspas.
+ * 
+ * Sintaxe
+ * 	escreva("texto quye será apresentado")
  */
-programa
-{
-	
-	funcao inicio()
-	{
-		inteiro idade = 35
-		real estatura = 1.70
-		caracter tipo_sanguineo = 'A'
-		cadeia endereco = "Rua fulano cicrano, nº 1000"
-		logico teste = (idade > estatura)
-		
-		
-		escreva("Idade: ", idade, " anos.\n")
-		escreva("Estatura: ", estatura, " metros.\n")
-		escreva("Tipo Saguíneo: ", tipo_sanguineo,"\n")
-		escreva("Endereço: ", endereco,"\n")
-		escreva("O valor da idade é maior do que o valor da estatura? ", teste, "\n")
+
+programa {
+	funcao inicio() {
+		escreva("Olá Mundo!")
 	}
-}
+}}
 /* $$$ Portugol Studio $$$ 
  * 
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 1114; 
+ * @POSICAO-CURSOR = 682; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
