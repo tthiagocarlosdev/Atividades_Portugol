@@ -21,7 +21,7 @@
  * frases etc.
  * 
  * No portugol a instrução de entrada de dados via teclado 
- * é chamada de "leia", pois segue a ideiade que o algoritmo 
+ * é chamada de "leia", pois segue a ideia de que o algoritmo 
  * está lendo dados do ambiente externo(usuário) para poder 
  * utilizá-los.
  * 
@@ -40,7 +40,7 @@ programa
 		escreva("Digite seu nome:")
 		leia(nome)
 		escreva(nome)
-
+		
 		escreva("\nDigite sua cidade e Estado de nascimento: ")
 		leia(cidade, estado)
 
@@ -54,7 +54,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 236; 
+ * @POSICAO-CURSOR = 204; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
