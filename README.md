@@ -17,3 +17,5 @@ Exercícios de **lógica** e **algorítmo** utilizando o Portugol Studio.
 1. AULA_02.01_OLA_MUNDO;
 2. AULA_02.02_VARIAVEIS;
 3. AULA_02.03_LEIA;
+4. AULA_03.01_NOME;
+5. AULA_03.02_NOME_LEIA;
