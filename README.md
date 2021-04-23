@@ -14,8 +14,9 @@ Exercícios de **lógica** e **algorítmo** utilizando o Portugol Studio.
 
 ## Índice de Atividades:
 
-1. AULA_02.01_OLA_MUNDO;
-2. AULA_02.02_VARIAVEIS;
-3. AULA_02.03_LEIA;
-4. AULA_03.01_NOME;
-5. AULA_03.02_NOME_LEIA;
+1. 01.OLA_MUNDO;
+2. 02.VARIAVEIS;
+3. 03.LEIA;
+4. 04.NOME;
+5. 05.NOME_LEIA;
+6. 06.OPERADORES_ARITMÉTICOS;
